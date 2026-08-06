@@ -1,0 +1,61 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+
+# Python tools
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs
+logs/
+*.log
+
+# Photos
+photos/
+
+# Excel kayıtları
+excel/
+*.xlsx
+
+# Config (gizli bilgiler)
+config.json
+
+# Ortam değişkenleri
+.env
+.env.*
+
+# Ultralytics
+runs/
+
+# Model dosyaları (GitHub'a yükleme)
+*.pt
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Build
+build/
+dist/
+*.spec
+
+# Temporary
+*.tmp
+*.bak
