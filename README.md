@@ -1,25 +1,46 @@
-# IABS (İnsan Algılama ve Anlık Bildirim Sistemi)
+<div align="center">
 
-IABS, gerçek zamanlı insan algılama yapan ve algılama gerçekleştiğinde fotoğraf kaydedip bildirim gönderebilen Python tabanlı bir güvenlik uygulamasıdır.
+# 🛡️ IABS
+### İnsan Algılama ve Anlık Bildirim Sistemi
 
-## Özellikler
+Gerçek zamanlı insan algılama, kişi takibi ve anlık bildirim sistemi.
 
-- 🎥 Gerçek zamanlı kamera görüntüsü
-- 🤖 YOLO11 ile insan algılama
-- 📍 ByteTrack ile kişi takibi
-- 📸 Otomatik fotoğraf kaydı
-- 📊 Excel kayıt sistemi
-- 📄 Log kayıtları
-- 📧 E-posta bildirimi
-- 💬 WhatsApp bildirimi
-- 🔔 Sesli alarm
-- 🖥️ Modern grafik arayüz (Tkinter / CustomTkinter)
+![Python](https://img.shields.io/badge/Python-3.13+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![YOLO11](https://img.shields.io/badge/YOLO11-Ultralytics-111111?style=for-the-badge)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=for-the-badge&logo=opencv)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+</div>
 
 ---
 
-## Kullanılan Teknolojiler
+## 📖 Hakkında
 
-- Python 3.13+
+**IABS (İnsan Algılama ve Anlık Bildirim Sistemi)**, güvenlik ve izleme amaçlı geliştirilmiş açık kaynaklı bir masaüstü uygulamasıdır.
+
+Uygulama, kameradan aldığı görüntü üzerinde **YOLO11** kullanarak gerçek zamanlı insan algılar, kişileri takip eder, fotoğraf kaydeder ve isteğe bağlı olarak e-posta veya WhatsApp üzerinden bildirim gönderir.
+
+---
+
+# ✨ Özellikler
+
+- 🎥 Gerçek zamanlı kamera görüntüsü
+- 🤖 YOLO11 ile insan algılama
+- 👤 ByteTrack ile kişi takibi
+- 📸 Otomatik fotoğraf kaydı
+- 📊 Excel kayıt sistemi
+- 📝 Ayrıntılı log sistemi
+- 📧 Gmail bildirimi
+- 💬 WhatsApp bildirimi
+- 🔔 Alarm sistemi
+- ⚙️ Yapılandırılabilir ayarlar
+- 🖥️ Modern grafik arayüz
+
+---
+
+# 🛠️ Kullanılan Teknolojiler
+
+- Python
 - OpenCV
 - Ultralytics YOLO11
 - ByteTrack
@@ -30,42 +51,9 @@ IABS, gerçek zamanlı insan algılama yapan ve algılama gerçekleştiğinde fo
 
 ---
 
-## Kurulum
+# 📂 Proje Yapısı
 
-Projeyi klonlayın.
-
-```bash
-git clone https://github.com/KULLANICI_ADIN/IABS.git
-cd IABS
-```
-
-Bağımlılıkları yükleyin.
-
-```bash
-pip install -r requirements.txt
-```
-
-YOLO modelini indirin.
-
-```
-yolo11s.pt
-```
-
-Dosyayı proje klasörüne yerleştirin.
-
----
-
-## Çalıştırma
-
-```bash
-python main.py
-```
-
----
-
-## Proje Yapısı
-
-```
+```text
 IABS/
 │
 ├── main.py
@@ -76,50 +64,81 @@ IABS/
 ├── whatsapp_sender.py
 ├── excel_logger.py
 ├── requirements.txt
-├── config.example.json
-├── README.md
-├── LICENSE
-├── tests/
-├── photos/
-├── logs/
-└── excel/
+└── README.md
 ```
 
 ---
 
-## Yapılandırma
+# 🚀 Kurulum
 
-`config.example.json` dosyasını kopyalayın.
+Depoyu klonlayın.
 
+```bash
+git clone https://github.com/kuzeyefekocagoz/IABS.git
+cd IABS
 ```
-config.example.json
-↓
-config.json
+
+Bağımlılıkları yükleyin.
+
+```bash
+pip install -r requirements.txt
 ```
 
-Kendi bilgilerinizi girin.
+Gerekli ayarları yaptıktan sonra uygulamayı çalıştırın.
 
-- Gmail
-- WhatsApp API
-- Kamera ayarları
-- Klasör yolları
-
----
-
-## Ekran Görüntüleri
-
-> Daha sonra eklenecektir.
+```bash
+python main.py
+```
 
 ---
 
-## Lisans
+# 📸 Ekran Görüntüleri
 
-Bu proje MIT Lisansı ile lisanslanmıştır.
+> Yakında eklenecek.
 
 ---
 
-## Geliştirici
+# 🗺️ Yol Haritası
 
-**Kuzey**
+- [x] YOLO11 entegrasyonu
+- [x] ByteTrack desteği
+- [x] Fotoğraf kaydı
+- [x] Excel kayıt sistemi
+- [x] Gmail bildirimi
+- [x] WhatsApp bildirimi
+- [ ] Çoklu kamera desteği
+- [ ] Web paneli
+- [ ] Docker desteği
+- [ ] Linux desteğinin geliştirilmesi
 
-GitHub: https://github.com/kuzeyefekocagoz/
+---
+
+# 🤝 Katkıda Bulunma
+
+Katkıda bulunmak isterseniz:
+
+1. Fork oluşturun.
+2. Yeni bir branch açın.
+3. Değişikliklerinizi yapın.
+4. Pull Request gönderin.
+
+---
+
+# 📜 Lisans
+
+Bu proje **MIT License** ile lisanslanmıştır.
+
+---
+
+<div align="center">
+
+## 👨‍💻 Geliştirici
+
+**Kuzey Efe Kocagöz**
+
+GitHub  
+**https://github.com/kuzeyefekocagoz**
+
+⭐ Projeyi beğendiyseniz yıldız vermeyi unutmayın!
+
+</div>
