@@ -122,4 +122,4 @@ Bu proje MIT Lisansı ile lisanslanmıştır.
 
 **Kuzey**
 
-GitHub: https://github.com/KULLANICI_ADIN
+GitHub: https://github.com/kuzeyefekocagoz/
