@@ -20,6 +20,8 @@ Gerçek zamanlı insan algılama, kişi takibi ve anlık bildirim sistemi.
 
 Uygulama, kameradan aldığı görüntü üzerinde **YOLO11** kullanarak gerçek zamanlı insan algılar, kişileri takip eder, fotoğraf kaydeder ve isteğe bağlı olarak e-posta veya WhatsApp üzerinden bildirim gönderir.
 
+**Not**: Bu proje, geliştirme sürecinde yapay zekâ (AI) desteğinden yararlanılarak oluşturulmuş ve geliştirilmiştir. Kodun düzenlenmesi, hata ayıklama, özelliklerin geliştirilmesi ve proje yapısının oluşturulması aşamalarında AI araçlarından destek alınmıştır.
+
 ---
 
 # ✨ Özellikler
